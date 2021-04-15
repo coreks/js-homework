@@ -124,4 +124,164 @@
 //   return message;
 // }
 
-13;
+// 13;
+
+// function isAdult(age) {
+//   const passed = age >= 18;
+
+//   return passed;
+// }
+
+// 14;
+
+// function isValidPassword(password) {
+//   const SAVED_PASSWORD = 'jqueryismyjam';
+//   // Пиши код ниже этой строки
+//   const isMatch = SAVED_PASSWORD === password;
+
+//   // Пиши код выше этой строки
+//   return isMatch;
+// }
+
+15;
+
+// function checkAge(age) {
+//   let message;
+
+//   if (age >= 18) {
+//     // Дополни эту строку
+//     message = 'Вы совершеннолетний человек';
+//   } else {
+//     message = 'Вы не совершеннолетний человек';
+//   }
+
+//   return message;
+// }
+
+16;
+
+// function checkStorage(available, ordered) {
+//   let message;
+//   // Пиши код ниже этой строки
+//   if (ordered > available) {
+//     message = 'На складе недостаточно товаров!';
+//   } else {
+//     message = 'Заказ оформлен, с вами свяжется менеджер';
+//   }
+//   // Пиши код выше этой строки
+//   return message;
+// }
+
+// 17;
+
+// let a = 5;
+// let b = 10;
+// let c = 15;
+// let d = 20;
+
+// // Пиши код ниже этой строки
+// a += 2;
+// b -= 4;
+// c *= 3;
+// d /= 10;
+
+18;
+
+// function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
+//   let message;
+//   // Пиши код ниже этой строки
+//   const totalPrice = pricePerDroid * orderedQuantity;
+//   if (totalPrice > customerCredits) {
+//     message = 'Недостаточно средств на счету!';
+//   } else {
+//     message = `Вы купили ${orderedQuantity} дроидов, на счету осталось ${
+//       customerCredits - totalPrice
+//     } кредитов`;
+//   }
+//   // Пиши код выше этой строки
+//   return message;
+// }
+
+// 19;
+
+// function checkPassword(password) {
+//   const ADMIN_PASSWORD = 'jqueryismyjam';
+//   let message;
+
+//   if (password === null) {
+//     // Дополни эту строку
+//     message = 'Отменено пользователем!';
+//   } else if (password === ADMIN_PASSWORD) {
+//     // Дополни эту строку
+//     message = 'Добро пожаловать!';
+//   } else {
+//     message = 'Доступ запрещен, неверный пароль!';
+//   }
+
+//   return message;
+// }
+
+20;
+
+// function checkStorage(available, ordered) {
+//   let message;
+//   // Пиши код ниже этой строки
+//   if (ordered === 0) {
+//     message = 'В заказе еще нет товаров';
+//   } else if (ordered > available) {
+//     message = 'Слишком большой заказ, на складе недостаточно товаров!';
+//   } else {
+//     message = 'Заказ оформлен, с вами свяжется менеджер';
+//   }
+//   // Пиши код выше этой строки
+//   return message;
+// }
+
+21;
+
+// function isNumberInRange(start, end, number) {
+//   const isInRange = number >= start && number <= end; // дополни эту строку
+
+//   return isInRange;
+// }
+
+22;
+
+// function checkIfCanAccessContent(subType) {
+//   const canAccessContent = 'pro' === subType || 'vip' === subType; // дополни эту строку
+
+//   return canAccessContent;
+// }
+
+23;
+
+// function isNumberNotInRange(start, end, number) {
+//   const isInRange = number >= start && number <= end;
+//   const isNotInRange = !isInRange; // Дополни эту строку
+
+//   return isNotInRange;
+// }
+
+24;
+
+// function getDiscount(totalSpent) {
+//   const BASE_DISCOUNT = 0;
+//   const BRONZE_DISCOUNT = 0.02;
+//   const SILVER_DISCOUNT = 0.05;
+//   const GOLD_DISCOUNT = 0.1;
+//   let discount;
+//   // Пиши код ниже этой строки
+//   if (totalSpent >= 50000) {
+//     discount = GOLD_DISCOUNT;
+//   } else if (totalSpent >= 20000) {
+//     discount = SILVER_DISCOUNT;
+//   } else if (totalSpent >= 5000) {
+//     discount = BRONZE_DISCOUNT;
+//   } else {
+//     discount = BASE_DISCOUNT;
+//   }
+//   // Пиши код выше этой строки
+//   return discount;
+// }
+
+25;
