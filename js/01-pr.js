@@ -239,3 +239,49 @@
 //   }
 // }
 // console.log(message);
+
+// Репета видео 2
+
+// const minSalary = 500;
+// const maxSalary = 5000;
+// const employees = 12;
+// let totalSalary = 0;
+
+// for (let i = 1; i <= employees; i += 1) {
+//   const salary = Math.round(
+//     Math.random() * (maxSalary - minSalary) + maxSalary,
+//   );
+//   console.log(`ЗП работника номер ${i} - `);
+
+//   totalSalary += salary;
+// }
+
+// console.log('totalSalary:', totalSalary);
+
+// const min = 0;
+// const max = 5;
+// let total = 0;
+
+// for (let i = min; i <= max; i += 1) {
+//   //   console.log(i);
+
+//   if (i % 2 !== 0) {
+//     console.log('не чётное: ', i);
+//     continue;
+//   }
+//   console.log('чётное: ', i);
+
+//   total += i;
+// }
+
+// console.log('total: ', total);
+
+// let balance = 10000;
+// const payment = 2000;
+
+// if (balance >= payment) {
+//   console.log('ok');
+
+//   balance -= payment;
+//   console.log(balance);
+// }
