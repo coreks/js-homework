@@ -47,12 +47,9 @@
 //   pizzas: ['Ультрасыр', 'Аль Копчино', 'Четыре нарезона'],
 //   order(pizzaName, onSuccess, onError) {
 //     if (!this.pizzas.includes(pizzaName)) {
-//       return onOrderError(
-//         `В ассортименте нет пиццы с названием ${pizzaName}.`,
-//         onError,
-//       );
+//       return onError(`В ассортименте нет пиццы с названием ${pizzaName}.`);
 //     }
-//     return makePizza(pizzaName, onSuccess);
+//     return onSuccess(pizzaName);
 //   },
 // };
 // // Пиши код выше этой строки
@@ -132,11 +129,11 @@
 
 7;
 
-const orders = [
-  { email: 'solomon@topmail.ua', dish: 'Burger' },
-  { email: 'artemis@coldmail.net', dish: 'Pizza' },
-  { email: 'jacob@mail.com', dish: 'Taco' },
-];
+// const orders = [
+//   { email: 'solomon@topmail.ua', dish: 'Burger' },
+//   { email: 'artemis@coldmail.net', dish: 'Pizza' },
+//   { email: 'jacob@mail.com', dish: 'Taco' },
+// ];
 
 // Пиши код ниже этой строки
 // function composeMessage(position) {
