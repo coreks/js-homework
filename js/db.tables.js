@@ -2,6 +2,7 @@ const tables = [
   {
     table: 1,
     service: '',
+    totalCheck: 0,
   },
   {
     table: 2,
