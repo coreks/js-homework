@@ -223,18 +223,16 @@
 21;
 
 // function findLongestWord(string) {
-//   // Пиши код ниже этой строки
-//   let total = [];
-//   string = string.split(' ');
-
-//   for (const word of string) {
-//     if (word.length >= total.length) {
-//       total = word;
+//   // Change code below this line
+//   let result = "";
+//   let arrayWords = string.split(" ");
+//   for (let i = 0; i < arrayWords.length; i++) {
+//     if (arrayWords[i].length >= result.length) {
+//       result = arrayWords[i];
 //     }
 //   }
-//   return total;
-
-//   // Пиши код выше этой строки
+//   return result;
+//   // Change code above this line
 // }
 
 22;
